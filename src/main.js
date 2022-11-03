@@ -1,1 +1,1 @@
-import './app/config.js'
+import './app/SignuoForm,js'

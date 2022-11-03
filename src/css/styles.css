@@ -1,5 +1,22 @@
-* {}
-
 body {
     background: #252323;
+    color: #fff;
 }
+
+button {
+    text-decoration: none;
+    color: #695CFE;
+    background-color: #242526;
+    padding: 0.5em 3em;
+    border: 1px solid;
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: 226;
+    cursor: pointer;
+    transition: background-color .3s;
+  }
+  
+button:hover {
+    color: #fff;
+    background-color: #695CFE;
+  }
