@@ -3,7 +3,7 @@ body {
     color: #fff;
 }
 
-button {
+.login {
     text-decoration: none;
     color: #695CFE;
     background-color: #242526;
@@ -16,7 +16,7 @@ button {
     transition: background-color .3s;
   }
   
-button:hover {
+.login:hover {
     color: #fff;
     background-color: #695CFE;
   }
