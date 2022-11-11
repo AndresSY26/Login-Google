@@ -20,7 +20,7 @@ SignupForm.addEventListener('submit', async (e) => {
         const modal = bootstrap.Modal.getInstance(Signup)
         modal.hide()
 
-        showMessage("Usuario registrado" + CreateUser.user.email)
+        showMessage("Usuario registrado " + CreateUser.user.email)
 
     } catch (error) {
         if (error.code === 'auth/email-already-in-use') {
